@@ -23,7 +23,7 @@ const updateImage = (i) => {
     let path = `./images/img${i+1}.jpg`;
     largeImage.src = path;
     imageName.innerHTML = path;
-    imageIndex.innerHTML = `0${i+1}`;
+    imageIndex.innerHTML = `${i+1}`;
     index = i;
 }
 
